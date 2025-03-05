@@ -7,13 +7,13 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className="container align-items-center mt-3">
-        <div className="row">
-          <div className="col-8">
+      <div className="container mt-3">
+        <div className="row justify-content-center">
+          <div className="col-4">
               <Post></Post>
               <Post></Post>
           </div>
-          <div className="col-4">
+          <div className="col-2">
             <div className="card mt-2">
               <div className="card-body text-center">
                 <Button></Button>
